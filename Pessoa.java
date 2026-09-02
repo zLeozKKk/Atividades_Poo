@@ -1,7 +1,20 @@
 package Heranca;
 
 public class Pessoa {
-    
 
-    int idade; 
+    private int id;
+
+    public Pessoa(int id) {
+        this.id = id;
+    }
+    
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    
 }
