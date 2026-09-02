@@ -4,3 +4,8 @@ Acompanhado por uma constante escrita em maiusculo. Ex: EXEMPLO_CONSTANTE.
 static - Ele determina que o valor adicionado será valido para todos os objs.
 Ex: private static double salarioMin = 1000;  
 Todas as vezes que um obj for criado ele INICIA com essa variavel e este valor. 
+
+classe abstratc - Não permite que um obj seja criado "sem ser de um tipo".
+Ex: o próprio exercício. 
+
+instanceof - diferencia qual é o tipo do obj, e o qual comportamento ele precisa ter.
