@@ -1,0 +1,6 @@
+final - Ele não permite que o valor seja alterado, em nenhum outro momento do código. 
+Acompanhado por uma constante escrita em maiusculo. Ex: EXEMPLO_CONSTANTE.
+
+static - Ele determina que o valor adicionado será valido para todos os objs.
+Ex: private static double salarioMin = 1000;  
+Todas as vezes que um obj for criado ele INICIA com essa variavel e este valor. 
