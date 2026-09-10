@@ -1,8 +1,12 @@
-public class ContaBancaria {
+public abstract class ContaBancaria {
     
     private int nroConta;
     private String nomeCorrentista;
     private double saldo;
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
 
     public ContaBancaria(int nroConta,String nomeCorrentista,double saldo) {
         this.nroConta=nroConta;
@@ -34,8 +38,8 @@ public class ContaBancaria {
         return false;
     }
 
-    public boolean sacar (double valor){
-        if(valor <= saldo && valor > saldo){
+    public boolean retirada (double valor){
+        if(valor <= saldo && valor > 0){
             saldo -= valor;
             return true;
         }
