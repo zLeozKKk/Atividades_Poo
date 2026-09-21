@@ -1,0 +1,4 @@
+a) Leonardo Larré Scolmeister Machado
+b) 10.0
+c) acredito que consegui desenvolver bem a maneira de como fazer o trabalho, como escrevi como logica e transcrever no codigo. 
+d) minha maior dificuldade foi conseguir achar qual o "nome" que eu precisava escrever no if() do metodo precisaManutnecao + na main eu estava trocando apenas uma vez o ESTADO de cada sinal. 

@@ -1,0 +1,77 @@
+📦 Parte 1: Exercícios com Vetor (Tipo[])
+Exercício 1: Gerenciamento de Vagas de Estacionamento
+Crie um vetor de String com 6 posições (todas inicializadas como null). Crie métodos para:
+
+Estacionar um carro em uma vaga específica enviando o índice (cheque se está livre).
+
+Remover um carro de uma vaga (tornando-a null novamente).
+
+Imprimir o mapa do estacionamento mostrando quais posições estão "LIVRE" e quais estão "OCUPADA".
+
+Exercício 2: Filtro de Valores Maiores que a Média
+Crie um vetor que receba 8 números decimais (double). Faça um programa que:
+
+Calcule a média de todos os números presentes no vetor.
+
+Imprima apenas os números do vetor que forem estritamente maiores do que essa média calculada.
+
+Exercício 3: Inversão Manual de Elementos
+Dado um vetor de números inteiros (int[]) de tamanho 5 preenchido com valores à sua escolha:
+
+Crie um algoritmo para inverter a ordem dos elementos sem usar um vetor auxiliar. O primeiro elemento deve trocar de lugar com o último, o segundo com o penúltimo, e assim por diante.
+
+Exercício 4: Busca por Elemento Duplicado
+Crie um programa com um vetor de inteiros com 10 posições. Crie um método que percorra o vetor e identifique se existe pelo menos um número repetido no vetor. O método deve retornar true se houver duplicatas ou false se todos os números forem únicos.
+
+Exercício 5: Ordenação Básica (Bubble Sort)
+Crie um vetor de inteiros desordenado (ex: {15, 3, 9, 1, 7}). Sem usar bibliotecas prontas do Java:
+
+Escreva um algoritmo de ordenação para colocar os elementos desse vetor em ordem crescente e exiba o vetor ordenado na tela.
+
+🚀 Parte 2: Exercícios com ArrayList (ArrayList<T>)
+Exercício 6: Cadastro e Filtro por Preço
+Crie uma classe Produto com nome e preco. Crie uma lista ArrayList<Produto> e monte um método que:
+
+Receba a lista e um valor limite.
+
+Exiba apenas os produtos cujo preço seja menor ou igual a esse valor limite.
+
+Exercício 7: Remoção por Condição (Sem Deixar Lacunas)
+Crie uma lista de Strings contendo nomes de alunos. Adicione alguns nomes repetidos à lista (ex: "Ana", "João", "Ana", "Pedro").
+
+Crie um método que receba um nome e remova todas as ocorrências desse nome da lista de uma vez só, ajustando o tamanho total automaticamente.
+
+Exercício 8: Intersecção de Listas
+Crie duas listas de inteiros (ArrayList<Integer>).
+
+Escreva um método que receba essas duas listas e retorne uma terceira lista contendo apenas os números que aparecem em ambas as listas (a intersecção).
+
+Exercício 9: Encontrar o Maior e Menor Objeto
+Crie uma lista de objetos do tipo Carro (usando os atributos placa e valor).
+
+Escreva um programa que percorra o ArrayList e encontre qual é o carro mais caro e o carro mais barato cadastrados, exibindo as informações de ambos.
+
+Exercício 10: Substituição Dinâmica de Elementos
+Crie uma lista de Strings contendo tarefas do dia (ex: "Estudar Java", "Ir para academia", "Fazer almoço").
+
+Implemente um método que permita substituir uma tarefa por outra, recebendo o nome da tarefa antiga e o nome da nova tarefa. Caso a tarefa antiga não seja encontrada, exiba uma mensagem de alerta.
+
+Qual desses você quer tentar resolver primeiro para corrigirmos juntos?
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+1.0
+preciso conferir se tem vagas disponiveis para estacionar. 
+
+verificar os indices não nulos ( nao tem vaga neles ) e substituir 
+
+qual o tipo desse metodo? ele é uma ação entao VOID 
+
+sempre para conferir, listar e consutlar usamos FOR;
+pelo visto nao preciso usar for se eu ja tenho um indice.
+
+1.3 preciso do mapa do estacionanmento
+
+imprimir todo o mapa atual, agora o for deve entrar, ja que vou percorrer 
+todos os itens do vetor
+
+sera que os itnes vao ser adiconado certos? 

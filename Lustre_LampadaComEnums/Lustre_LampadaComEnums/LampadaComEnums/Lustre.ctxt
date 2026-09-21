@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Lustre
+comment1.params=qtdLampadas
+comment1.target=Lustre(int)
+comment2.params=
+comment2.target=void\ ligar()
+comment3.params=
+comment3.target=void\ desligar()
+comment4.params=
+comment4.target=int\ getQtdLampadasQueimadas()
+comment5.params=
+comment5.target=boolean\ temLampadaQueimada()
+comment6.params=
+comment6.target=int[]\ getIndicesLampadasQueimadas()
+numComments=7

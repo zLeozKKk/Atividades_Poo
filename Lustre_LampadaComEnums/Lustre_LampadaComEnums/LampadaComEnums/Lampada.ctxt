@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Lampada
+comment1.params=
+comment1.target=Lampada()
+comment2.params=
+comment2.target=void\ ligar()
+comment3.params=
+comment3.target=void\ desligar()
+comment4.params=
+comment4.target=Lampada.EstadoLampada\ getEstado()
+numComments=5
