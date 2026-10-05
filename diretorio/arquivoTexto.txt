@@ -1,0 +1,5 @@
+codigo;nome;preco
+10;HD;200
+11;Impressora;400.23
+12;Papel A4; 19.90
+13;Mouse; 39.39
